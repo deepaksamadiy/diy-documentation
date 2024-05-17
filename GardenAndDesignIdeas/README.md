@@ -4,6 +4,7 @@
 
 # Inspirations
 ## Patios
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
 <div class="gallery">
     <style>
     .gallery {
@@ -51,7 +52,7 @@
     </div>
     <!-- Add more images here -->
 </div>
-
+</svg>
 ## Steps
 <div class="gallery">
     <!-- First row -->
