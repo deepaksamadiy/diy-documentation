@@ -7,53 +7,53 @@
 <svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
-<div class="gallery">
-    <style>
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 20px;
-    }
-    .gallery-item {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
-    }
-    .gallery-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border: 1px solid #ccc;
-    }
-    .gallery-caption {
-    padding: 10px;
-    text-align: center;
-    font-size:15px;
-    }
-    </style>
-    <!-- First row -->
-    <div class="gallery-item">
-        <img src="https://scontent.fslc3-1.fna.fbcdn.net/v/t39.30808-6/441216242_373519295706243_4261411357134905440_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-dk9zBNvhVcQ7kNvgFW9Bw6&_nc_ht=scontent.fslc3-1.fna&oh=00_AYAevYSesKqFzFYB7VGqw_21HwDWzKAFhZSBtSgGt1SMlg&oe=664CB206" alt="Image 1">
-        <div class="gallery-caption">Style 1</div>
-    </div>
-    <div class="gallery-item">
-        <img src="https://scontent.fslc3-2.fna.fbcdn.net/v/t39.30808-6/440425815_374624165595756_1905373012423718742_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1yTWrcTDzBcQ7kNvgHtW-kR&_nc_ht=scontent.fslc3-2.fna&oh=00_AYC4MERnAkXL_TBJUTF3-n6rhFiD29QLVXCXkeinsfe3Sw&oe=664CD26F">
-        <div class="gallery-caption">Style 1</div>
-    </div>
-    <div class="gallery-item">
-        <img src="https://scontent.fslc3-1.fna.fbcdn.net/v/t39.30808-6/441223406_374654488926057_222648471742677777_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-0xjWNeqWIsQ7kNvgGHrHgs&_nc_ht=scontent.fslc3-1.fna&oh=00_AYC0FsYmTRU6283VfGREQE0Z894EaiINo5Slssn6VMlTmQ&oe=664CC31C">
-        <div class="gallery-caption">Style 1</div>
-    </div>
-    <div class="gallery-item">
-        <img src="https://scontent.fslc3-2.fna.fbcdn.net/v/t39.30808-6/440273371_375921708799335_4760030747722713727_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ezlpIfMhjGMQ7kNvgHVrnw3&_nc_ht=scontent.fslc3-2.fna&oh=00_AYDKS67K6vELM2ldhhgzLpDIUkNbTEIakDOMD-GArCu4aA&oe=664CA392">
-        <div class="gallery-caption">Style 1</div>
-    </div>
-    <div class="gallery-item">
-        <img src="https://scontent.fslc3-2.fna.fbcdn.net/v/t39.30808-6/441035786_379451591779680_6873284042206897390_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=yJHeuMvmDNsQ7kNvgF3dyzC&_nc_ht=scontent.fslc3-2.fna&oh=00_AYBNQuyZe2TXsZmnSEqWs6G0P99yktmYz4oIN2VHwgKD4w&oe=664C9A36">
-        <div class="gallery-caption">Style 1</div>
-    </div>
-    <!-- Add more images here -->
-</div>
+        <style>
+            .gallery {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 20px;
+            }
+            .gallery-item {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            }
+            .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border: 1px solid #ccc;
+            }
+            .gallery-caption {
+            padding: 10px;
+            text-align: center;
+            font-size:15px;
+            }
+            </style>
+        <div class="gallery">
+            <!-- First row -->
+            <div class="gallery-item">
+                <img src="https://scontent.fslc3-1.fna.fbcdn.net/v/t39.30808-6/441216242_373519295706243_4261411357134905440_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-dk9zBNvhVcQ7kNvgFW9Bw6&_nc_ht=scontent.fslc3-1.fna&oh=00_AYAevYSesKqFzFYB7VGqw_21HwDWzKAFhZSBtSgGt1SMlg&oe=664CB206" alt="Image 1">
+                <div class="gallery-caption">Style 1</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://scontent.fslc3-2.fna.fbcdn.net/v/t39.30808-6/440425815_374624165595756_1905373012423718742_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1yTWrcTDzBcQ7kNvgHtW-kR&_nc_ht=scontent.fslc3-2.fna&oh=00_AYC4MERnAkXL_TBJUTF3-n6rhFiD29QLVXCXkeinsfe3Sw&oe=664CD26F">
+                <div class="gallery-caption">Style 1</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://scontent.fslc3-1.fna.fbcdn.net/v/t39.30808-6/441223406_374654488926057_222648471742677777_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-0xjWNeqWIsQ7kNvgGHrHgs&_nc_ht=scontent.fslc3-1.fna&oh=00_AYC0FsYmTRU6283VfGREQE0Z894EaiINo5Slssn6VMlTmQ&oe=664CC31C">
+                <div class="gallery-caption">Style 1</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://scontent.fslc3-2.fna.fbcdn.net/v/t39.30808-6/440273371_375921708799335_4760030747722713727_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ezlpIfMhjGMQ7kNvgHVrnw3&_nc_ht=scontent.fslc3-2.fna&oh=00_AYDKS67K6vELM2ldhhgzLpDIUkNbTEIakDOMD-GArCu4aA&oe=664CA392">
+                <div class="gallery-caption">Style 1</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://scontent.fslc3-2.fna.fbcdn.net/v/t39.30808-6/441035786_379451591779680_6873284042206897390_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=yJHeuMvmDNsQ7kNvgF3dyzC&_nc_ht=scontent.fslc3-2.fna&oh=00_AYBNQuyZe2TXsZmnSEqWs6G0P99yktmYz4oIN2VHwgKD4w&oe=664C9A36">
+                <div class="gallery-caption">Style 1</div>
+            </div>
+            <!-- Add more images here -->
+        </div>
 </div>
 </foreignObject>
 </svg>
